@@ -6,7 +6,7 @@ description: "看，我就在这里啊"
 ---
 
 <center>
-    <p><img src="https://github.com/squirrelmaster/squirrelmaster.github.io/blob/master/img/songshu.jpg" align="center"></p>
+    <p><img src="https://github.com/squirrelmaster/squirrelmaster.github.io/tree/master/img/songshu.jpg" align="center"></p>
 </center>
 
 
@@ -23,10 +23,7 @@ description: "看，我就在这里啊"
 -希望能一直陪着喜欢的事物走下去
 
 
-- 元认知乃一切之源
-- 学苟知本，六经皆我注脚 
-- 一切技能皆可习得，包括写作
-- 「持续」并不是坚持，写就是最好的回报
+
 
 
 ###Interesting:
