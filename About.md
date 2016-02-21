@@ -7,7 +7,7 @@ header-img: "img/me.jpeg"
 
 
 <center>
-    <p><img/shudong.jpeg align="center"></p>
+    <img/shudong.jpeg align="center">
 </center>
 
 我是程昌松，以此挖个树洞记录点滴，也便于日后的回顾与反思。
@@ -44,15 +44,7 @@ header-img: "img/me.jpeg"
 ###代表作：
 Not yet.But it won't be late.
 
-###联系
 
-#- 博客：www.cnfeat.com
-
-#- 微博@CnFeat
-
-#- 知乎
-
-#- 知乎专栏：http://zhuanlan.zhihu.com/cnfeat
 
 
 
