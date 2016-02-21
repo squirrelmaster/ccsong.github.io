@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-description: "嘿，你总算找到我啦"
+title: "About squirrel"
+description: "看，我就在这里啊"
 header-img: "img/me.jpeg"
 ---
 
