@@ -1,7 +1,7 @@
 # Site settings
 title: 程昌松·开始了就不要停下
 header-img: "img/seagulls.jpg"
-tagline: ""  
+tagline: "cn"  
 description: "learning by doing"  
 baseurl: ""
 url: "http://ccsong.github.io" 
@@ -19,7 +19,7 @@ favicon: img/favicon.png
 #douban_username:  
 twitter_username: Changsong Cheng
 github_username: squirrelmaster
-facebook_username: 
+#facebook_username: 
 weibo_username: 松鼠的日常
 #zhihu_username: 
 
@@ -34,7 +34,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 relative_permalinks: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Beiging
+timezone: Asia/Beijing
 
 # Defaults for posts
 defaults:
@@ -44,16 +44,16 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "ccsong"
       header-img: "img/seagulls.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : 程昌松
+    short_name : cnfeat
   disqus :
-      short_name : 程昌松
+      short_name : cnfeat
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
