@@ -1,6 +1,6 @@
 # Site settings
 title: 松鼠坚果之家
-header-img: "img/seagulls.jpg"
+header-img: "img/gouweiba.jpeg"
 tagline: "cn"  
 description: "learning by doing"  
 baseurl: ""
@@ -14,7 +14,7 @@ owner:
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
+favicon: img/fengmian.jpeg
 
 #douban_username:  
 twitter_username: Changsong Cheng
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "ccsong"
-      header-img: "img/seagulls.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/songshu.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
