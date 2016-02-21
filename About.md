@@ -5,10 +5,10 @@ description: "看，我就在这里啊"
 header-img: "img/me.jpeg"
 ---
 
-
 <center>
-    <img/shudong.jpeg align="center">
+    <p><img src="https://github.com/squirrelmaster/squirrelmaster.github.io/blob/master/img/songshu.jpg" align="center"></p>
 </center>
+
 
 我是程昌松，以此挖个树洞记录点滴，也便于日后的回顾与反思。
 
