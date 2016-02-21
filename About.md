@@ -2,21 +2,25 @@
 layout: page
 title: "About"
 description: "嘿，你总算找到我啦"
-header-img: "img/plane.jpg"
+header-img: "img/me.jpeg"
 ---
 
 
 <center>
-    <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
+    <p><img/shudong.jpeg align="center"></p>
 </center>
 
-我是陈素封。
+我是程昌松，以此挖个树洞记录点滴，也便于日后的回顾与反思。
 
-每天千字践行者，践行时间：2014年02月10日至2014年02月23日，感谢这段经历，让我成为了现在的我。
+感谢身边认识的一批牛人，带给了我学习的动力与热情。
 
-现在研习 **认知写作学** 。
 
-###坚信
+
+###认知
+-什么时候学习都不晚
+-既然已经开好了头，就不要虎头蛇尾
+-做事都需要更多一份责任心
+-希望能一直陪着喜欢的事物走下去
 
 
 - 元认知乃一切之源
@@ -25,32 +29,30 @@ header-img: "img/plane.jpg"
 - 「持续」并不是坚持，写就是最好的回报
 
 
-###关注：
+###Interesting:
 
 
-- 元认知
-- 写作
-- Python
-- 阳志平
-- 大妈
+- 爬山，涉水；自由骑行；足球，跑酷
+- 一边听歌，一边写东西
+- 走在白城的沙滩，听海哭的声音
+- 课余时间学习R，Python，量化学习（五年时间准备）
+
+##About future：
+多看看外面的世界，然后回到自己的小树洞。
+
 
 ###代表作：
-
-- 《24款最值得推荐的中文字体》
-
-- [《世界并非如你所见——用可供性来发现更大的世界》](http://www.jianshu.com/p/6f1404e0240d)
-
-- [《如何正确地练习写作》](http://www.jianshu.com/p/2621444b619d)
+Not yet.But it won't be late.
 
 ###联系
 
-- 博客：www.cnfeat.com
+#- 博客：www.cnfeat.com
 
-- 微博@CnFeat
+#- 微博@CnFeat
 
-- 知乎@陈素封
+#- 知乎
 
-- 知乎专栏：http://zhuanlan.zhihu.com/cnfeat
+#- 知乎专栏：http://zhuanlan.zhihu.com/cnfeat
 
 
 
