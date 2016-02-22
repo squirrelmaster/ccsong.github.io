@@ -2,7 +2,7 @@
 layout: page
 title: "About squirrel"
 description: "看，我就在这里啊"
-#header-img: "img/songshu.jpg"
+header-img: "img/songshu.jpg"
 ---
 
 <center>
