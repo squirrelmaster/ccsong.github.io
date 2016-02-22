@@ -2,7 +2,7 @@
 layout: page
 title: "My Tags"
 description: "博文标签库"  
-header-img: "img/me.jpeg"  
+header-img: "img/book.jpg"  
 ---
 
 
