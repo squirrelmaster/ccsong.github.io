@@ -18,14 +18,23 @@ header-img: "img/source.jpg"
 #### R
 
 -[Yihui Xie](http://yihui.name/)
+
 -[统计之都](http://cos.name/)
+
 -[不优秀也是一种习惯](http://blog.cos.name/taiyun/)
+
 -[R-blogers](http://www.r-bloggers.com/lang/)
+
 -[Datacamp](https://www.datacamp.com/)
+
 -[d3js](http://d3js.org/)
+
 -[Jetbrains](http://www.jetbrains.com/)
+
 -[ROKIA](http://rokia.org/)
+
 -[yphuang](https://github.com/yphuang)
+
 -[Norris-Niu](https://github.com/Norris-Niu)
 
 
@@ -35,8 +44,11 @@ header-img: "img/source.jpg"
 #### Quant
 
 -[米匡](https://www.ricequant.com/)
+
 -[量帮科技](http://www.quanttech.cn/)
+
 -[聚宽](https://www.joinquant.com/)
+
 -[大奖章](http://www.dajiangzhang.com/)
 
 
