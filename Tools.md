@@ -23,8 +23,6 @@ header-img: "img/source.jpg"
 
 [不优秀也是一种习惯](http://blog.cos.name/taiyun/)
 
-[ROKIA](http://rokia.org/)
-
 [R-blogers](http://www.r-bloggers.com/lang/)
 
 [Datacamp](https://www.datacamp.com/)
@@ -33,8 +31,11 @@ header-img: "img/source.jpg"
 
 [Jetbrains](http://www.jetbrains.com/)
 
+[ROKIA](http://rokia.org/)
 
+[yphuang](https://github.com/yphuang)
 
+[Norris-Niu](https://github.com/Norris-Niu)
 
 
 
