@@ -6,7 +6,7 @@ description: "看，我就在这里啊"
 ---
 
 <center>
-    <p><img src="https://github.com/squirrelmaster/squirrelmaster.github.io/tree/master/img/songshu.jpg" align="center"></p>
+    <p><img src="https://github.com/squirrelmaster/squirrelmaster.github.io/master/img/songshu.jpg" align="center"></p>
 </center>
 
 
