@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "My Tags"
-description: "博文标签库"  
+description: "标签库"  
 header-img: "img/dianluban.jpg"  
 ---
 
