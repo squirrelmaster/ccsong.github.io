@@ -10,7 +10,7 @@ header-img: "img/qiangbi3.jpg"
 ### Resources
 
 
-#### R
+### R
 
 - [Yihui Xie](http://yihui.name/)
 - [统计之都](http://cos.name/)
@@ -40,8 +40,6 @@ header-img: "img/qiangbi3.jpg"
 - [vnpy](http://www.vnpy.org)
 - [vnpy-zhihu](https://zhuanlan.zhihu.com/vn-py)
 - [2016年vn.py项目计划](https://zhuanlan.zhihu.com/p/20573702)
-
-
 - [米匡](https://www.ricequant.com/)
 - [掘金](http://www.myquant.cn)
 - [量帮科技](http://www.quanttech.cn/)
@@ -53,11 +51,37 @@ header-img: "img/qiangbi3.jpg"
 - [理想论坛](http://www.55188.com/search.php?searchid=628&orderby=lastpost&ascdesc=desc&searchsubmit=yes)
 - [研报](http://www.p5w.net/newfortune/fxs/px/jrgc/)
 
+***
 
-#### Q&A
+### python
+-[廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/)
+-[learn-python-the-hard-way](http://learnpythonthehardway.org/book/)
+-[pythontab](http://www.pythontab.com/)
+-[官方文档](http://python.usyiyi.cn)
+-[Seaborn](http://nbviewer.jupyter.org/github/yihongfa/pythondata/blob/master/Seaborn.ipynb)
+-[matplotlib](http://matplotlib.org/)
+-[talib](http://mrjbq7.github.io/ta-lib/funcs.html)
+-[scipy](http://www.scipy-lectures.org/)
+-[visualize learning:python,java,c,c++](http://pythontutor.com/)
+-[yangyanxing-blog](http://www.yangyanxing.com/page/7/)
+
+***
+
+### Code training
+-[codeforces](http://codeforces.com)
+-[ACM](http://acm.nyist.net/JudgeOnline/problemset.php)
+-[赛码](http://www.acmcoder.com)
+
+
+***
+
+
+### Q&A
+
 -[Quora](https://www.quora.com/)
 -[Flowingdata](http://flowingdata.com/)
 -[stackoverflow](http://stackoverflow.com/)
 -[Cross Validated](http://stats.stackexchange.com/)
 -[Talkststs](http://www.talkstats.com/)
 -[Pluskid](http://blog.pluskid.org/)
+-[ML](http://mlwave.com/)
