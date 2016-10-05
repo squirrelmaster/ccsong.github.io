@@ -7,26 +7,21 @@ header-img: "img/qiangbi3.jpg"
 
 
 
-
-
-
-
-
 ### Resources
 
 
 #### R
 
--[Yihui Xie](http://yihui.name/)
--[统计之都](http://cos.name/)
--[不优秀也是一种习惯](http://blog.cos.name/taiyun/)
--[R-blogers](http://www.r-bloggers.com/lang/)
--[Datacamp](https://www.datacamp.com/)
--[d3js](http://d3js.org/)
--[Jetbrains](http://www.jetbrains.com/)
--[ROKIA](http://rokia.org/)
--[yphuang](https://github.com/yphuang)
--[Norris-Niu](https://github.com/Norris-Niu)
+- [Yihui Xie](http://yihui.name/)
+- [统计之都](http://cos.name/)
+- [不优秀也是一种习惯](http://blog.cos.name/taiyun/)
+- [R-blogers](http://www.r-bloggers.com/lang/)
+- [Datacamp](https://www.datacamp.com/)
+- [d3js](http://d3js.org/)
+- [Jetbrains](http://www.jetbrains.com/)
+- [ROKIA](http://rokia.org/)
+- [yphuang](https://github.com/yphuang)
+- [Norris-Niu](https://github.com/Norris-Niu)
 
 
 
