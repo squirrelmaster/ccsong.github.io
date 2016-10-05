@@ -154,7 +154,7 @@ vi共有三种模式：
 
 ## 参考文献
 
-- 『HYP：Linux常用命令备忘录』(http://yphuang.github.io/blog/2016/02/23/Linux-Command-Notes/)
+- [HYP：Linux常用命令备忘录](http://yphuang.github.io/blog/2016/02/23/Linux-Command-Notes/)
 
 ##其他编辑器nano
 
