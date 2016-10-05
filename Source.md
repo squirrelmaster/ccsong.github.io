@@ -9,21 +9,6 @@ header-img: "img/qiangbi3.jpg"
 
 ### Resources
 
-
-### R
-
-- [Yihui Xie](http://yihui.name/)
-- [统计之都](http://cos.name/)
-- [不优秀也是一种习惯](http://blog.cos.name/taiyun/)
-- [R-blogers](http://www.r-bloggers.com/lang/)
-- [Datacamp](https://www.datacamp.com/)
-- [d3js](http://d3js.org/)
-- [Jetbrains](http://www.jetbrains.com/)
-- [ROKIA](http://rokia.org/)
-- [yphuang](https://github.com/yphuang)
-- [Norris-Niu](https://github.com/Norris-Niu)
-
-
 ***
 
 #### Quant
@@ -54,23 +39,38 @@ header-img: "img/qiangbi3.jpg"
 ***
 
 ### python
--[廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/)
--[learn-python-the-hard-way](http://learnpythonthehardway.org/book/)
--[pythontab](http://www.pythontab.com/)
--[官方文档](http://python.usyiyi.cn)
--[Seaborn](http://nbviewer.jupyter.org/github/yihongfa/pythondata/blob/master/Seaborn.ipynb)
--[matplotlib](http://matplotlib.org/)
--[talib](http://mrjbq7.github.io/ta-lib/funcs.html)
--[scipy](http://www.scipy-lectures.org/)
--[visualize learning:python,java,c,c++](http://pythontutor.com/)
--[yangyanxing-blog](http://www.yangyanxing.com/page/7/)
+- [廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/)
+- [learn-python-the-hard-way](http://learnpythonthehardway.org/book/)
+- [pythontab](http://www.pythontab.com/)
+- [官方文档](http://python.usyiyi.cn)
+- [Seaborn](http://nbviewer.jupyter.org/github/yihongfa/pythondata/blob/master/Seaborn.ipynb)
+- [matplotlib](http://matplotlib.org/)
+- [talib](http://mrjbq7.github.io/ta-lib/funcs.html)
+- [scipy](http://www.scipy-lectures.org/)
+- [visualize learning:python,java,c,c++](http://pythontutor.com/)
+- [yangyanxing-blog](http://www.yangyanxing.com/page/7/)
+
 
 ***
 
+### R
+
+- [Yihui Xie](http://yihui.name/)
+- [统计之都](http://cos.name/)
+- [不优秀也是一种习惯](http://blog.cos.name/taiyun/)
+- [R-blogers](http://www.r-bloggers.com/lang/)
+- [Datacamp](https://www.datacamp.com/)
+- [d3js](http://d3js.org/)
+- [Jetbrains](http://www.jetbrains.com/)
+- [ROKIA](http://rokia.org/)
+- [yphuang](https://github.com/yphuang)
+- [Norris-Niu](https://github.com/Norris-Niu)
+
+
 ### Code training
--[codeforces](http://codeforces.com)
--[ACM](http://acm.nyist.net/JudgeOnline/problemset.php)
--[赛码](http://www.acmcoder.com)
+- [codeforces](http://codeforces.com)
+- [ACM](http://acm.nyist.net/JudgeOnline/problemset.php)
+- [赛码](http://www.acmcoder.com)
 
 
 ***
@@ -78,10 +78,18 @@ header-img: "img/qiangbi3.jpg"
 
 ### Q&A
 
--[Quora](https://www.quora.com/)
--[Flowingdata](http://flowingdata.com/)
--[stackoverflow](http://stackoverflow.com/)
--[Cross Validated](http://stats.stackexchange.com/)
--[Talkststs](http://www.talkstats.com/)
--[Pluskid](http://blog.pluskid.org/)
--[ML](http://mlwave.com/)
+- [Quora](https://www.quora.com/)
+- [Flowingdata](http://flowingdata.com/)
+- [stackoverflow](http://stackoverflow.com/)
+- [Cross Validated](http://stats.stackexchange.com/)
+- [Talkststs](http://www.talkstats.com/)
+- [Pluskid](http://blog.pluskid.org/)
+- [HTML learning](http://www.runoob.com/html/html-tutorial.html)
+
+***
+
+### ML
+- [ML](http://mlwave.com/)
+- [好东西](http://forum.memect.com/blog/thread-category/ml/)
+- [ML-stanford](http://cs229.stanford.edu/materials.html)
+- [ML+math](http://blog.pluskid.org/)
