@@ -84,7 +84,7 @@ header-img: "img/qiangbi3.jpg"
 - [Cross Validated](http://stats.stackexchange.com/)
 - [Talkststs](http://www.talkstats.com/)
 - [Pluskid](http://blog.pluskid.org/)
-- [HTML learning](http://www.runoob.com/html/html-tutorial.html)
+
 
 ***
 
@@ -93,3 +93,8 @@ header-img: "img/qiangbi3.jpg"
 - [好东西](http://forum.memect.com/blog/thread-category/ml/)
 - [ML-stanford](http://cs229.stanford.edu/materials.html)
 - [ML+math](http://blog.pluskid.org/)
+
+***
+
+### others
+- [HTML learning](http://www.runoob.com/html/html-tutorial.html)
