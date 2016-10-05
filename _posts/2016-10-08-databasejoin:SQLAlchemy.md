@@ -21,14 +21,14 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
 
 
 - Dialects
- + # default
- + engine = create_engine('postgresql://scott:tiger@localhost/mydatabase')
+  + # default
+  + engine = create_engine('postgresql://scott:tiger@localhost/mydatabase')
 
- + # psycopg2
- + engine = create_engine('postgresql+psycopg2://scott:tiger@localhost/mydatabase')
+  + # psycopg2
+  + engine = create_engine('postgresql+psycopg2://scott:tiger@localhost/mydatabase')
 
- + # pg8000
- + engine = create_engine('postgresql+pg8000://scott:tiger@localhost/mydatabase')
+  + # pg8000
+  + engine = create_engine('postgresql+pg8000://scott:tiger@localhost/mydatabase')
 
 
 ### 安装
