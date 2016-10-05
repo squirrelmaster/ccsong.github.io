@@ -24,19 +24,23 @@ header-img: "img/qiangbi3.jpg"
 - [Norris-Niu](https://github.com/Norris-Niu)
 
 
+***
 
 #### Quant
-###### Foreign stra
+
+##### Foreign stra
+
 - [gekkoquant](http://gekkoquant.com/)
 - [stockcharts](http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:chaikin_oscillator)
 - [quantifiedstrategies](http://www.quantifiedstrategies.com/)
 
-###### Plantform
+##### Plantform
 - [pyalgotrade](https://github.com/gbeced/pyalgotrade)
 - [pyalgotrade-cn](http://www.tudou.com/plcover/v8ETxyJv94E/)
 - [vnpy](http://www.vnpy.org)
 - [vnpy-zhihu](https://zhuanlan.zhihu.com/vn-py)
 - [2016年vn.py项目计划](https://zhuanlan.zhihu.com/p/20573702)
+
 
 - [米匡](https://www.ricequant.com/)
 - [掘金](http://www.myquant.cn)
@@ -44,7 +48,7 @@ header-img: "img/qiangbi3.jpg"
 - [聚宽](https://www.joinquant.com/)
 - [大奖章](http://www.dajiangzhang.com/)
 
-###### Forum
+##### Forum
 - [雪球](https://xueqiu.com)
 - [理想论坛](http://www.55188.com/search.php?searchid=628&orderby=lastpost&ascdesc=desc&searchsubmit=yes)
 - [研报](http://www.p5w.net/newfortune/fxs/px/jrgc/)
