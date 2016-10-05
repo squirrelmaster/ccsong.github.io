@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Linux常用命令"
-author: "yphuang"
-date: 2016-02-23
+date: 2016-10-05
 categories: blog
-tags: [Linux,备忘录]
+tags: [Linux]
 
 ---
 
