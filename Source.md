@@ -98,3 +98,4 @@ header-img: "img/qiangbi3.jpg"
 
 ### others
 - [HTML learning](http://www.runoob.com/html/html-tutorial.html)
+- [程序化交易公开课](http://list.youku.com/albumlist/show?id=27113684&ascending=1&page=1.html)
