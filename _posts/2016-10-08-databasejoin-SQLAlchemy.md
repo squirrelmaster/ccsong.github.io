@@ -42,13 +42,12 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
 $ easy_install sqlalchemy
 
 ### 导入基本包
-'''
+- 
   from sqlalchemy import Column, Float, DateTime, String, Integer, Text, ForeignKey, UniqueConstraint, func
   from sqlalchemy.orm import sessionmaker
   from sqlalchemy import create_engine
   from sqlalchemy.dialects.mysql import LONGTEXT
   from sqlalchemy import text
-'''
 
 - [使用SQLAlchemy](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0014021031294178f993c85204e4d1b81ab032070641ce5000)
 
