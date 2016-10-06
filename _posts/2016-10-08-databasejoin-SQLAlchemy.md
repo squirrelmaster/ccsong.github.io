@@ -38,16 +38,42 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
   + pyodbc：engine = create_engine('mssql+pyodbc://scott:tiger@mydsn')
   + pymssql：engine = create_engine('mssql+pymssql://scott:tiger@hostname:port/dbname')
 
-### 安装
+#### 安装
 $ easy_install sqlalchemy
 
-### 导入基本包
-- 
-  + from sqlalchemy import Column, Float, DateTime, String, Integer, Text, ForeignKey, UniqueConstraint, func
-  + from sqlalchemy.orm import sessionmaker
-  + from sqlalchemy import create_engine
-  + from sqlalchemy.dialects.mysql import LONGTEXT
-  + from sqlalchemy import text
+#### 导入基本包 
+    from sqlalchemy import Column, Float, DateTime, String, Integer, Text, ForeignKey, UniqueConstraint, func
+    from sqlalchemy.orm import sessionmaker
+    from sqlalchemy import create_engine
+    from sqlalchemy.dialects.mysql import LONGTEXT
+    from sqlalchemy import text
+
+#### Create Object Base
+    from sqlalchemy.ext.declarative import declarative_base
+    Base = declarative_base()
+#### 接着封装建表engine
+    engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)
+    【注】utf8mb4包含了utf8的编码，但是占用空间大
+
+    def createAll(self): #Create Table
+        Base.metadata.create_all(self.engine)
+    
+    def makeSession(self): # SQL Session 建立
+        #Create DB Session
+        DBSession = sessionmaker(bind = self.engine)
+        self.session = DBSession()
+    
+    def commit(self): #SQL Commit All Added Data
+        self.session.commit()
+    
+    def close(self): #SQL Close the interface
+        self.session.close()
+
+    if __name__ == '__main__':
+	    sql_handle = sqlio()
+	    sql_handle.createAll()
+	    sql_handle.makeSession()
+        
 
 - [使用SQLAlchemy](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0014021031294178f993c85204e4d1b81ab032070641ce5000)
 
