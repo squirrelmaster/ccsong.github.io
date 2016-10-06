@@ -51,8 +51,11 @@ $ easy_install sqlalchemy
 #### Create Object Base
     from sqlalchemy.ext.declarative import declarative_base
     Base = declarative_base()
+    
 #### 接着封装建表engine
+
     engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)
+    
     【注】utf8mb4包含了utf8的编码，但是占用空间大
 
     def createAll(self): #Create Table
