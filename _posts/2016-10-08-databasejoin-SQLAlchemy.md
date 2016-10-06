@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 数据库连接：SQLAlchemy"
+title: "数据库连接：SQLAlchemy"
 date: 2016-10-08
 categories: blog
 tags: [database]
@@ -21,11 +21,22 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
 </center>
 
 
-- Dialects 
+#### Dialects
+- postgresql
   + default： engine = create_engine('postgresql://scott:tiger@localhost/mydatabase')
   + psycopg2：engine = create_engine('postgresql+psycopg2://scott:tiger@localhost/mydatabase')
   + pg8000： engine = create_engine('postgresql+pg8000://scott:tiger@localhost/mydatabase')
-
+- MySQL
+  + default：engine = create_engine('mysql://scott:tiger@localhost/foo')
+  + mysql-python：engine = create_engine('mysql+mysqldb://scott:tiger@localhost/foo')
+  + MySQL-connector-python：engine = create_engine('mysql+mysqlconnector://scott:tiger@localhost/foo')
+  + OurSQL：engine = create_engine('mysql+oursql://scott:tiger@localhost/foo')
+- Oracle：The Oracle dialect uses cx_oracle as the default DBAPI
+  + engine = create_engine('oracle://scott:tiger@127.0.0.1:1521/sidname')
+  + engine = create_engine('oracle+cx_oracle://scott:tiger@tnsname')
+- Microsoft SQL Server
+  + pyodbc：engine = create_engine('mssql+pyodbc://scott:tiger@mydsn')
+  + pymssql：engine = create_engine('mssql+pymssql://scott:tiger@hostname:port/dbname')
 
 ### 安装
 $ easy_install sqlalchemy
