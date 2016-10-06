@@ -8,6 +8,7 @@ tags: [database]
 ---
 
 
+
 ### SQLAlchemy简介
 Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样整套流畅的生产线，大大提高了使用效率，将SQL语句封装在包中，直接调用即可。
 在写爬虫程序抓取实时消息时，可以提前封装好需要的数据库建表包，和定时任务结合爬取，实现自动定时爬取及时存档数据库，更新数据的功能。
@@ -21,13 +22,13 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
 
 
 - Dialects
-  + # default
+  + default：
   + engine = create_engine('postgresql://scott:tiger@localhost/mydatabase')
 
-  + # psycopg2
+  + psycopg2：
   + engine = create_engine('postgresql+psycopg2://scott:tiger@localhost/mydatabase')
 
-  + # pg8000
+  + pg8000：
   + engine = create_engine('postgresql+pg8000://scott:tiger@localhost/mydatabase')
 
 
