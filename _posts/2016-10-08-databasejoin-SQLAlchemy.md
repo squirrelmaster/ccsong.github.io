@@ -15,6 +15,7 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
 
 #### Database Urls
 - dialect+driver://username:password@host:port/database
+- '数据库类型+数据库驱动名称://用户名:口令@机器地址:端口号/数据库名'
 
 <center>
     <p><img src="https://raw.githubusercontent.com/squirrelmaster/squirrelmaster.github.io/master/img/sqla_engine_arch.png" align="center"></p>
@@ -52,7 +53,20 @@ $ easy_install sqlalchemy
     from sqlalchemy.ext.declarative import declarative_base
     Base = declarative_base()
     
-#### 接着封装建表engine
+    class biao_name(Base):
+    __tablename__ = 'yourtablename'
+    CODE = Column(String(6), primary_key = True)
+    TYPE = Column(String(10))
+    TYPE_CODE = Column(Integer)
+    RANGE = Column(Float)
+    GGDATE = Column(DateTime, primary_key = True)
+    BBDATE = Column(DateTime)
+    UniqueConstraint('CODE', 'GGDATE')
+
+    def __repr__(self):
+        return "biao_name"
+	
+#### 接着封装建表：engine
 
     engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)
     
@@ -76,9 +90,12 @@ $ easy_install sqlalchemy
 	    sql_handle = sqlio()
 	    sql_handle.createAll()
 	    sql_handle.makeSession()
-        
 
-- [使用SQLAlchemy](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0014021031294178f993c85204e4d1b81ab032070641ce5000)
+#### 更多用法
+- [SQLAlchemy使用经验](http://www.keakon.net/2012/12/03/SQLAlchemy使用经验)
 
 #### 参考 
--[Engine Configuration](http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html)
+- [Engine Configuration](http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html)
+- [使用SQLAlchemy](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0014021031294178f993c85204e4d1b81ab032070641ce5000)
+
+
