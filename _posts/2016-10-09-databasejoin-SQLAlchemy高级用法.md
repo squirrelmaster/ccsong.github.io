@@ -9,8 +9,8 @@ tags: [database]
 
 
 #### 建表
-    from sqlalchemy import Column
-    from sqlalchemy.types import CHAR, Integer, String  
+    from sqlalchemy import Column
+    from sqlalchemy.types import CHAR, Integer, String  
     from sqlalchemy.ext.declarative import declarative_base   
     BaseModel = declarative_base()
     
@@ -100,5 +100,5 @@ tags: [database]
     外键改动),set Null(设空值）,set Default（设默认值）,[默认]no action
       
 #### 9.正确使用事务
-    MySQL InnoDB 虽然支持事务，但并不是那么简单的，还需要手动加锁。如果要保证事务运行期间内，被读取的数据不被修改，自己也不去修改，加读锁即可。如果需要更改数据，最好加写锁。
+    MySQL InnoDB 虽然支持事务，但并不是那么简单的，还需要手动加锁。如果要保证事务运行期间内，被读取的数据不被修改，自己也不去修改，加读锁即可。如果需  	要更改数据，最好加写锁。
  
