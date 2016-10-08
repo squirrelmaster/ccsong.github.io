@@ -72,7 +72,7 @@ $ easy_install sqlalchemy
         return "biao_name"
 	
 #### 接着封装建表：engine
-     engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)  
+    engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)  
     【注】utf8mb4包含了utf8的编码，但是占用空间大
 
     def createAll(self): #Create Table
