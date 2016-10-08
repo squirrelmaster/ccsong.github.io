@@ -1,15 +1,15 @@
 ---
 layout: page
 title: "About squirrel"
-description: "看，我就在这里啊"
+description: "Look，I'm here"
 header-img: "img/songshu0.jpg"
 ---
 
 
-我是程昌松，以此挖个树洞记录点滴，也便于日后的回顾与反思。
+我是昌松，or苍松，大家也叫我老师，以此挖个树洞记录点滴，也便于日后的回顾与反思。
 
 
-I'm here.
+come on，I'm here.
 
 <center>
     <p><img src="https://raw.githubusercontent.com/squirrelmaster/squirrelmaster.github.io/master/img/songshu.jpg" align="center"></p>

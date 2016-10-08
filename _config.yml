@@ -1,6 +1,6 @@
 # Site settings
 title: 数洞
-header-img: "img/home.jpg"
+header-img: "img/liubianxing.jpg"
 tagline: "cn"  
 description: "learning by doing"  
 baseurl: ""
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "ccsong"
-      header-img: "img/songshu.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/qiangbi2.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
