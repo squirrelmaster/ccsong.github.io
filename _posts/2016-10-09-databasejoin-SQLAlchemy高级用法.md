@@ -8,8 +8,9 @@ tags: [database]
 ---
 
 
+#### 高级应用
 #### 建表
-    from sqlalchemy import Column
+    from sqlalchemy import Column
     from sqlalchemy.types import CHAR, Integer, String  
     from sqlalchemy.ext.declarative import declarative_base   
     BaseModel = declarative_base()
