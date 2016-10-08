@@ -10,6 +10,7 @@ tags: [database]
 
 #### 高级应用
 #### 建表
+```
     from sqlalchemy import Column
     from sqlalchemy.types import CHAR, Integer, String  
     from sqlalchemy.ext.declarative import declarative_base   
@@ -24,7 +25,7 @@ tags: [database]
           id = Column(Integer, primary_key=True)
 	   name = Column(CHAR(30)) # or Column(String(30))
     init_db()
-    
+```
 #### 1.量插入大批数据
      session.execute(User.__table__.insert(),   
     [{'name': `randint(1, 100)`,'age': randint(1, 100)} for i in xrange(10000)])
