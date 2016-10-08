@@ -17,10 +17,10 @@ Python包SQLAlchemy整合了从建表，数据库存取，查询，修改这样�
 - dialect+driver://username:password@host:port/database
 - '数据库类型+数据库驱动名称://用户名:口令@机器地址:端口号/数据库名'
 -  engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)
-   +  “charset”指定了连接时使用的字符集（可省略）。
-   +  create_engine() 会返回一个数据库引擎，echo 参数为 True 时，会显示每条执行的 SQL 语句，生产环境下可关闭。
-   +  sessionmaker() 会生成一个数据库会话类。这个类的实例可以当成一个数据库连接，它同时还记录了一些查询的数据，并决定什么时候执行 SQL 语句。由于              
-      SQLAlchemy 自己维护了一个数据库连接池（默认 5 个连接），因此初始化一个会话的开销并不大。
+   + “charset”指定了连接时使用的字符集（可省略）。
+   + create_engine() 会返回一个数据库引擎，echo 参数为 True 时，会显示每条执行的 SQL 语句，生产环境下可关闭。
+   + sessionmaker() 会生成一个数据库会话类。这个类的实例可以当成一个数据库连接，它同时还记录了一些查询的数据，并决定什么时候执行 SQL 语句。由于              
+     SQLAlchemy 自己维护了一个数据库连接池（默认 5 个连接），因此初始化一个会话的开销并不大。
 
 <center>
     <p><img src="https://raw.githubusercontent.com/squirrelmaster/squirrelmaster.github.io/master/img/sqla_engine_arch.png" align="center"></p>
