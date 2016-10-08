@@ -97,10 +97,10 @@ $ easy_install sqlalchemy
 	    sql_handle.makeSession()
 
 #### 高级用法
-    定义一个表  
-    from sqlalchemy import Column
-    from sqlalchemy.types import CHAR, Integer, String
-    from sqlalchemy.ext.declarative import declarative_base
+     定义一个表  
+     from sqlalchemy import Column
+     from sqlalchemy.types import CHAR, Integer, String
+     from sqlalchemy.ext.declarative import declarative_base
     
     BaseModel = declarative_base()
     
