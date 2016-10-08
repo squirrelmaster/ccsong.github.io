@@ -97,10 +97,9 @@ $ easy_install sqlalchemy
 	    sql_handle.makeSession()
 
 #### 高级用法
-     定义一个表  
-     from sqlalchemy import Column
-     from sqlalchemy.types import CHAR, Integer, String
-     from sqlalchemy.ext.declarative import declarative_base
+    from sqlalchemy import Column
+    from sqlalchemy.types import CHAR, Integer, String
+    from sqlalchemy.ext.declarative import declarative_base
     
     BaseModel = declarative_base()
     
@@ -191,11 +190,11 @@ $ easy_install sqlalchemy
         user_id2 = Column(Integer, ForeignKey('user.id', ondelete='CASCADE', onupdate='CASCADE'))
     【补充】事件触发限制: on delete和on update , 可设参数cascade(跟随外键改动), restrict(限制外表中的
      外键改动),set Null(设空值）,set Default（设默认值）,[默认]no action
-    
-    
+      
     9.正确使用事务
     MySQL InnoDB 虽然支持事务，但并不是那么简单的，还需要手动加锁。如果要保证事务运行期间内，被读取的数据不被修改，自己也不去修改，加读锁即可。如果需要更改数据，最好加写锁。
  
+
 
 #### 更多用法
 - [SQLAlchemy使用经验](http://www.keakon.net/2012/12/03/SQLAlchemy使用经验)
