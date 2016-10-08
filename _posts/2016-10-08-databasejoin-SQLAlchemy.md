@@ -73,7 +73,8 @@ $ easy_install sqlalchemy
 	
 #### 接着封装建表：engine
     engine=create_engine('mysql+pymysql://%s:%s@%s/%s?charset=utf8mb4' %(user, password, host, database), echo = True)  
-    【注】utf8mb4包含了utf8的编码，但是占用空间大
+    
+    【注】utf8mb4包含了utf8的编码，但是占用空间大
 
     def createAll(self): #Create Table
         Base.metadata.create_all(self.engine)
@@ -102,7 +103,7 @@ $ easy_install sqlalchemy
     BaseModel = declarative_base()
     
     def init_db():
-        BaseModel.metadata.create_all(engine)
+        BaseModel.metadata.create_all(engine)	
     def drop_db():
         BaseModel.metadata.drop_all(engine)
     class User(BaseModel):
@@ -112,10 +113,8 @@ $ easy_install sqlalchemy
     init_db()
     
     1.量插入大批数据
-    session.execute(
-    User.__table__.insert(),
-    [{'name': `randint(1, 100)`,'age': randint(1, 100)} for i in xrange(10000)]
-    )
+     session.execute(User.__table__.insert(),   
+    [{'name': `randint(1, 100)`,'age': randint(1, 100)} for i in xrange(10000)])
     session.commit()
     上面批量插入了 10000 条记录，半秒内就执行完了；而 ORM 方式会花掉很长时间。
     
