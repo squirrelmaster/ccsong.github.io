@@ -98,11 +98,13 @@ $ easy_install sqlalchemy
 
 
 #### 高级用法
-    定义一个表
+    定义一个表  
     from sqlalchemy import Column
     from sqlalchemy.types import CHAR, Integer, String
     from sqlalchemy.ext.declarative import declarative_base
+    
     BaseModel = declarative_base()
+    
     def init_db():
         BaseModel.metadata.create_all(engine)
     def drop_db():
@@ -152,8 +154,10 @@ $ easy_install sqlalchemy
                'mysql_engine': 'InnoDB',
                'mysql_charset': 'utf8'
            }
-    如果是对表来设置的话，可以把上面代码中的 utf8 改成 utf8mb4，DB_CONNECT_STRING 里的 charset 也这样更改。
-    如果对库或字段来设置，则还是自己写SQL语句比较方便不建议全用utf8mb4代替utf8，因为前者更慢，索引会占用更多空间。
+	   
+    如果是对表来设置的话，可以把上面代码中的 utf8 改成 utf8mb4，DB_CONNECT_STRING 里的 charset 也
+    这样更改。如果对库或字段来设置，则还是自己写SQL语句比较方便不建议全用utf8mb4代替utf8，因为前者更
+    慢，索引会占用更多空间。
 
     8.如何设置外键约束？
      from random import randint
@@ -171,22 +175,25 @@ $ easy_install sqlalchemy
 	  
      for i in xrange(100):
          session.add(User(age=randint(1, 100)))
-     session.flush() # 或 session.commit()，执行完后，user 对象的 id 属性才可以访问（因为 id 是自增的）
+     session.flush() # 或 session.commit()，执行完后user对象的 id 属性才可以访问（因为id是自增的）
     
      for i in xrange(100):
          session.add(Friendship(user_id1=randint(1, 100), user_id2=randint(1, 100)))
      session.commit()
      session.query(User).filter(User.age < 50).delete()
      
-     【注】删除 user 表的数据，可能会导致 friendship 的外键不指向一个真实存在的记录。在默认情况下，MySQL 会拒绝这种操作，也就是 RESTRICT。InnoDB 还    
-     允许指定 ON DELETE 为 CASCADE 和 SET NULL，前者会删除 friendship 中无效的记录，后者会将这些记录的外键设为 NULL 除了删除，还有可能更改主键，这 
-     也会导致 friendship 的外键失效。于是相应的就有 ON UPDATE 了。其中 CASCADE 变成了更新相应的外键，而不是删除。而在 SQLAlchemy 中是这样处理的：
+     【注】删除 user 表的数据，可能会导致 friendship 的外键不指向一个真实存在的记录。在默认情况下，
+     MySQL 会拒绝这种操作，也就是 RESTRICT。InnoDB 还允许指定 ON DELETE 为 CASCADE 和 SET NULL，
+     前者会删除 friendship 中无效的记录，后者会将这些记录的外键设为 NULL 除了删除，还有可能更改主键，
+     这也会导致 friendship 的外键失效。于是相应的就有 ON UPDATE 了。其中 CASCADE 变成了更新相应的外
+     键，而不是删除。而在 SQLAlchemy 中是这样处理的：
      class Friendship(BaseModel):
         __tablename__ = 'friendship'
         id = Column(Integer, primary_key=True)
         user_id1 = Column(Integer, ForeignKey('user.id', ondelete='CASCADE', onupdate='CASCADE'))
         user_id2 = Column(Integer, ForeignKey('user.id', ondelete='CASCADE', onupdate='CASCADE'))
-    【补充】事件触发限制: on delete和on update , 可设参数cascade(跟随外键改动), restrict(限制外表中的外键改动),set Null(设空值）,set Default（设默认值）,[默认]no action
+    【补充】事件触发限制: on delete和on update , 可设参数cascade(跟随外键改动), restrict(限制外表中的
+     外键改动),set Null(设空值）,set Default（设默认值）,[默认]no action
     
     
     9.正确使用事务
