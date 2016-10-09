@@ -91,7 +91,7 @@ $ easy_install sqlalchemy
 	    sql_handle.createAll()
 	    sql_handle.makeSession()
 
-#### 无法对表进行添加列操作，需要自行在sql中进行添加
+#### 需要注意的是，SQLAlchemy无法对表进行添加列操作，需要自行在sql中进行添加
 
 #### 更多用法
 - [SQLAlchemy使用经验](http://www.keakon.net/2012/12/03/SQLAlchemy使用经验)
